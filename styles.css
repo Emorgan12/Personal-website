@@ -1,0 +1,11 @@
+*{
+    font-family: "Dosis", sans-serif;
+    background-color: rgb(255, 151, 169);
+    color: rgb(188, 68, 192);
+    text-decoration: none;
+    margin: 0;
+}
+
+a{
+    color: rgb(115, 6, 148);
+}

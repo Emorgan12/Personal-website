@@ -3,21 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Music</title>
 </head>
+<style>
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 3rem;
+    }
+
+    img{
+        border-radius: 20px;
+        height: 180px;
+        width: 180px;
+        border: 10px solid;
+    }
+</style>
 <body>
     <h1>My Favourite Music!</h1>
 
     <h2>My Favourite artists:</h2>
 
-    <ol>
-        <li>Olivia Rodrigo</li>
-        <li>One Direction</li>
-        <li>James Marriott</li>
-        <li>Taylor Swift</li>
-        <li>Caravan Palace</li>
-        <li>Emei</li>
-    </ol>
+    <ul>
+        <div class="artist" id="olivia-rodrigo">
+            <li>Olivia Rodrigo</li>
+            <div class="image"><img src="music-images/GUTS.jpg" alt="" style="border-color: rgb(72,67,102);"> <img src="music-images/sour.jpg" alt=""></div>
+        </div>
+        <div class="artist">
+            <li>James Marriott</li>
+            <div class="image"><img src="music-images/are-we-there-yet.jpeg" alt=""> <img src="music-images/bitter-tongues.jpeg" alt=""></div>
+        </div>
+        <div class="artist">
+            <li>Taylor Swift</li>
+            <div class="image"><img src="music-images/fearless.jpeg" alt=""><img src="music-images/reputation.jpeg" alt=""></div>
+        </div>
+        <div class="artist">
+            <li>One Direction</li>
+            <div class="image"><img src="music-images/midnight-memories.jpeg" alt=""><img src="music-images/four.jpeg" alt=""></div>
+        </div>
+        <div class="artist">
+            <li>Emei</li>
+            <div class="image"><img src="music-images/love-me-not.jpeg" alt=""><img src="music-images/scatterbrain.jpeg" alt=""></div>
+        </div>
+        <div class="artist">
+            <li>Caravan Palace</li>
+            <div class="image"><img src="music-images/lone-digger.jpeg" alt=""><img src="music-images/cronologie.jpeg" alt=""></div>
+        </div>
+    </ul>
 
     <h2>My Favourite Songs!</h2>
 
