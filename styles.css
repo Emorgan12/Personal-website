@@ -1,11 +1,64 @@
 *{
-    font-family: "Dosis", sans-serif;
+    font-family: cursive;
     background-color: rgb(255, 151, 169);
     color: rgb(188, 68, 192);
     text-decoration: none;
     margin: 0;
 }
 
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 3rem;
+}
+
+h2{
+    /* padding-left: 1rem; */
+    text-decoration: underline wavy;
+}
+
 a{
     color: rgb(115, 6, 148);
+}
+
+.name{
+    font-size: 2rem;
+    /* padding: .5rem 0; */
+    font-weight: 800;
+}
+
+.music-image img{
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    border: 10px solid;
+    /* margin-left: .5rem; */
+}
+
+#songs li{
+    padding-bottom: 5px;
+}
+
+#songs{
+    padding-bottom: 2rem;
+}
+
+/* #songs-header{
+    padding: 15px 2rem;
+} */
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.column1{
+    width: 50%;
+    height: 50%;
+}
+
+.column2{
+    width: 50%;
+    height: 50%;
 }
