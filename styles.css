@@ -48,17 +48,48 @@ a{
 } */
 
 .container{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr; /* This creates three equal rows */
+    grid-template-columns: auto auto auto; /* This creates three equal columns */
 }
 
-.column1{
-    width: 50%;
-    height: 50%;
+.row1{
+    grid-row: 1; 
+    display: grid;
 }
 
-.column2{
-    width: 50%;
-    height: 50%;
+
+.row2{
+    grid-row: 2; /* This assigns the second row to .row2 */
+}
+
+.row3{
+    grid-row: 3; /* This assigns the third row to .row3 */
+}
+
+#olivia-rodrigo{
+    display: grid;
+    grid-column: 1; 
+    grid-row: 1;
+}
+
+#james-marriott{
+    display: grid;
+    grid-column: 2; 
+    grid-row: 1;
+}
+
+#taylor-swift{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+ul{
+    display: grid;
+    list-style: none;
+}
+
+.index{
+    margin: 1rem;
 }
